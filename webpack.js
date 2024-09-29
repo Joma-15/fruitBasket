@@ -8,3 +8,5 @@ userAccount.age = 25;
 userAccount["Nationality"] = "filipino";
 console.log(userAccount)
 console.log(userAccount.username);
+//adding a new value to the object
+userAccount.email = "adelantarjhonmarcel@gmail.com";
