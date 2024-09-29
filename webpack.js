@@ -7,3 +7,4 @@ const userAccount = {
 userAccount.age = 25;
 userAccount["Nationality"] = "filipino";
 console.log(userAccount)
+console.log(userAccount.username);
