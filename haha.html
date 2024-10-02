@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="webpack.js"></script>
     <title>Document</title>
+    <script>
+        //this is the internal script
+        function fuckUser(){
+            const userInfo = {
+                username: "jhon marcel adelantar",
+                password: "uzumaki@15",
+                showname: function(){
+                    return document.getElementById("textshower").innerHTML = "hello my name is " + this.username + "and my password is " + this.password;
+                }
+            };
+            userInfo.showname()
+        }
+        function changeColor(){
+            document.getElementById("userAccount").innerHTML = "hello world";
+        }
+    </script>
 </head>
 <body>
-    <p id="textshower"></p>
-    <button id="mybutton" onclick="helloWorld()">click me</button>
+    <h1 id="textshower"></h1>
+    <button id="fuckinButton" onclick="fuckUser()">click me</button>
 </body>
 </html>
