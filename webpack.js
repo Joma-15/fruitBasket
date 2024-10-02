@@ -1,13 +1,6 @@
-const userAccount = {
-    username: "jhon marcel adelantar",
-    password: "uzumaki@15",
-    gender: "male"
-}
-//adding a new key value pair
-userAccount.age = 25;
-userAccount["Nationality"] = "filipino";
-console.log(userAccount)
-console.log(userAccount.username);
-//adding a new value to the object
-userAccount.email = "adelantarjhonmarcel@gmail.com";
-console.log("hello world")
+//importing prompt module
+const prompt = require("prompt-sync")({sigint: true});
+
+//creating a variable that will ask the user for his/her name
+let username = prompt("Please enter your name : ")
+console.log(`hello my name is ${username} and i am a computer engineering student studying at STI lipa`)

@@ -53,6 +53,7 @@ public class fruitBasket {
     //pop the element in the stack
     static void eatFruit(Stack<String> basket, String eating){
       while (true) {
+        System.out.println("Do you want to eat the fruit : ");
         if (basket.size() > 0 && eating.equalsIgnoreCase("e")) {
             try {//simulating the process of eating with 50 millisec delay for the printing of each character
                 String eatingProcess = "eating.................";
