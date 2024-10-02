@@ -15,3 +15,5 @@ console.log(userAccount.username);
 userAccount.email = "adelantarjhonmarcel@gmail.com";
 console.log("hello world")
 
+userAccount.anime = "naruto uzumaki"
+
