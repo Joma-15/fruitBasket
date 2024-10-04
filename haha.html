@@ -5,24 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        //this is the internal script
-        function fuckUser(){
-            const userInfo = {
-                username: "jhon marcel adelantar",
-                password: "uzumaki@15",
-                showname: function(){
-                    return document.getElementById("textshower").innerHTML = "hello my name is " + this.username + "and my password is " + this.password;
-                }
-            };
-            userInfo.showname()
-        }
-        function changeColor(){
-            document.getElementById("userAccount").innerHTML = "hello world";
-        }
+       function changeRed(){
+        document.getElementById("box").style.backgroundColor = "red";
+       }
+       function changeBlue(){
+        document.getElementById("box").style.backgroundColor = "blue";
+       }
     </script>
 </head>
 <body>
-    <h1 id="textshower"></h1>
-    <button id="fuckinButton" onclick="fuckUser()">click me</button>
+    <div id="box" style="height: 100px; width: 100px; background-color: red;" onmousemove="changeBlue()" onmouseout="changeRed()"></div>
 </body>
 </html>
