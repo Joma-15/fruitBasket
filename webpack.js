@@ -1,7 +1,6 @@
-const prompt = require('prompt-sync')({sigint: true});
-let word = prompt("Enter anything here : ");
+let i = 1;
 
-if (word.startsWith('world', 6)) {
-    console.log('yes its start with hello')
+while (i != Infinity) {//execute until reaches infinity 
+    i = i++ * 12e6;//making this formula as the new value of i
+    console.log(i);
 }
-
