@@ -1,6 +1,3 @@
-let i = 1;
-
-while (i != Infinity) {//execute until reaches infinity 
-    i = i++ * 12e6;//making this formula as the new value of i
-    console.log(i);
-}
+const prompt = require('prompt-sync')({signit: true})
+let name = prompt('please enter your name : ')//return a string value by default
+console.log(`hello my name is ${name}`)

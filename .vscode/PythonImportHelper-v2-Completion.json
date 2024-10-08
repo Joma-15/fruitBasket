@@ -1,0 +1,27 @@
+[
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "create_username",
+        "kind": 2,
+        "importPath": "haha",
+        "description": "haha",
+        "peekOfCode": "def create_username():\n    username = sc.n",
+        "detail": "haha",
+        "documentation": {}
+    }
+]
